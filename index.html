@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff6f5">
+  <meta name="description" content="Một món quà 20/10 dành riêng cho những bông hoa tuyệt vời của văn phòng.">
+  <title>20.10 - Gửi những bông hoa của văn phòng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="intro-pending">
+  <a class="skip-link" href="#main-content">Bỏ qua phần mở đầu</a>
+
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <span class="loader__bloom" aria-hidden="true">✿</span>
+    <span>Đang chuẩn bị những điều xinh đẹp...</span>
+  </div>
+
+  <div class="welcome" id="welcome" aria-labelledby="welcome-date">
+    <div class="welcome__wash" aria-hidden="true"></div>
+    <div class="welcome__paper">
+      <div class="welcome__seal" aria-hidden="true">
+        <svg viewBox="0 0 70 70">
+          <circle cx="35" cy="35" r="31"></circle>
+          <path d="M35 18c4 7 11 7 13 14-7-1-10 2-13 8-3-6-6-9-13-8 2-7 9-7 13-14Z"></path>
+          <path d="M35 40v12m-7-5c3 1 5 3 7 5 2-2 4-4 7-5"></path>
+        </svg>
+      </div>
+      <p class="welcome__date" id="welcome-date">20 <span>/</span> 10</p>
+      <h1 class="welcome__title">Happy Vietnamese<br>Women's Day</h1>
+      <p class="welcome__message">Gửi những điều tuyệt vời nhất đến những cô gái tuyệt vời nhất của văn phòng chúng ta.</p>
+      <button class="button button--gift" id="open-gift" type="button">
+        <span class="button__flower" aria-hidden="true">✿</span>
+        <span>Mở món quà 20/10</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg>
+      </button>
+      <p class="welcome__footnote">Một món quà nhỏ, thật nhiều yêu thương</p>
+    </div>
+    <div class="welcome__orbit welcome__orbit--one" aria-hidden="true"></div>
+    <div class="welcome__orbit welcome__orbit--two" aria-hidden="true"></div>
+    <span class="welcome__spark welcome__spark--one" aria-hidden="true">✧</span>
+    <span class="welcome__spark welcome__spark--two" aria-hidden="true">✦</span>
+  </div>
+
+  <main class="site-shell" id="main-content" inert aria-hidden="true">
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Về đầu trang">
+        <span class="wordmark__seal" aria-hidden="true">✿</span>
+        <span>20<span class="wordmark__dot">.</span>10</span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Mở menu">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+        <a href="#letter">Lời thương</a>
+        <a href="#gallery">Những bông hoa</a>
+        <a href="#wishes">Bốc lời chúc</a>
+      </nav>
+      <button class="sound-toggle" id="sound-toggle" type="button" aria-pressed="false" aria-label="Bật giai điệu chúc mừng">
+        <svg class="sound-toggle__icon" aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M4 10v4h4l5 4V6l-5 4H4Z"></path>
+          <path class="sound-wave" d="M16 9a5 5 0 0 1 0 6m3-9a9 9 0 0 1 0 12"></path>
+        </svg>
+        <span class="sound-toggle__label">Bật giai điệu</span>
+      </button>
+    </header>
+
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__backdrop" aria-hidden="true"></div>
+      <div class="hero__petal-field" aria-hidden="true"></div>
+      <div class="hero__portraits" aria-label="Những gương mặt rạng rỡ của văn phòng">
+        <figure class="hero-portrait hero-portrait--one">
+          <img src="images/Chị Hiếu.jpg" alt="Chị Hiếu" fetchpriority="high">
+        </figure>
+        <figure class="hero-portrait hero-portrait--two">
+          <img src="images/Chị Hòa.jpg" alt="Chị Hòa" fetchpriority="high">
+        </figure>
+        <figure class="hero-portrait hero-portrait--three">
+          <img src="images/Chị Trang.jpg" alt="Chị Trang" fetchpriority="high">
+        </figure>
+        <figure class="hero-portrait hero-portrait--four">
+          <img src="images/Chị Vy.png" alt="Chị Vy" fetchpriority="high">
+        </figure>
+        <span class="hero__flower hero__flower--one" aria-hidden="true">✿</span>
+        <span class="hero__flower hero__flower--two" aria-hidden="true">✧</span>
+      </div>
+      <div class="hero__copy">
+        <p class="hero__date">20 <span>/</span> 10 <span class="hero__date-line"></span> VIỆT NAM</p>
+        <h1 id="hero-title">Happy Vietnamese<br><em>Women's Day</em></h1>
+        <p class="hero__greeting">Chúc những bông hoa xinh đẹp của văn phòng luôn rạng rỡ, hạnh phúc và thành công.</p>
+        <a class="text-link" href="#letter">
+          <span>Gửi một chút yêu thương</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 4v15m-6-6 6 6 6-6"></path></svg>
+        </a>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="hero__scroll-line"></span>
+        <span>Cuộn xuống để nhận lời chúc</span>
+      </div>
+      <span class="hero__edition" aria-hidden="true">Made with love · 20.10</span>
+    </section>
+
+    <div class="marquee" aria-label="Chúc mừng Ngày Phụ nữ Việt Nam">
+      <div class="marquee__track" aria-hidden="true">
+        <span>HAPPY WOMEN'S DAY</span><i>✦</i><span>20.10</span><i>✦</i><span>BEAUTIFUL</span><i>✦</i><span>CONFIDENT</span><i>✦</i><span>SUCCESSFUL</span><i>✦</i><span>HAPPY</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="letter-section section-pad" id="letter" aria-labelledby="letter-title">
+      <div class="letter-section__ornament" aria-hidden="true">
+        <span class="botanical botanical--left">✿</span>
+        <span class="botanical botanical--right">✿</span>
+      </div>
+      <article class="letter reveal">
+        <div class="letter__stamp" aria-hidden="true">
+          <svg viewBox="0 0 76 76">
+            <path d="M38 6 45 12 54 10 58 18 67 22 66 31 72 38 66 45 67 54 58 58 54 66 45 64 38 70 31 64 22 66 18 58 10 54 12 45 6 38 12 31 10 22 18 18 22 10 31 12Z"></path>
+            <path d="M38 21c3 5 8 6 10 11-5 0-8 2-10 7-2-5-5-7-10-7 2-5 7-6 10-11Zm0 18v15m-6-6 6 6 6-6"></path>
+          </svg>
+        </div>
+        <h2 id="letter-title">Gửi đến những người phụ nữ<br><em>tuyệt vời của văn phòng chúng ta</em></h2>
+        <div class="letter__body">
+          <p>Nhân ngày Phụ nữ Việt Nam 20/10, xin gửi đến tất cả các chị em những lời chúc tốt đẹp nhất.</p>
+          <p>Chúc mọi người luôn xinh đẹp, vui vẻ, nhiều năng lượng, luôn được yêu thương và gặp thật nhiều may mắn trong công việc cũng như cuộc sống.</p>
+          <p>Cảm ơn vì đã luôn mang đến cho văn phòng những nụ cười, sự nhiệt huyết và rất nhiều năng lượng tích cực.</p>
+        </div>
+        <p class="letter__signoff">Chúc một ngày 20/10 thật nhiều hoa, nhiều quà và thật nhiều niềm vui! <span aria-hidden="true">🌷</span></p>
+        <div class="letter__signature">Thân thương, <span>Đại gia đình văn phòng</span></div>
+      </article>
+      <div class="letter-section__caption" aria-hidden="true">
+        <span>FOLDED WITH LOVE</span><span>✦</span><span>OPENED FOR YOU</span>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading reveal">
+        <div>
+          <h2 id="gallery-title">Những bông hoa<br><em>của văn phòng</em> <span aria-hidden="true">🌷</span></h2>
+        </div>
+        <p class="section-heading__aside">Một góc nhỏ dành cho những nụ cười, tài năng và nguồn năng lượng làm nơi này trở nên thật đặc biệt.</p>
+      </div>
+      <div class="gallery-grid" id="gallery-grid" aria-label="Album ảnh chị em văn phòng"></div>
+      <p class="gallery-note reveal"><span aria-hidden="true">✧</span> Chạm vào một khung hình để xem gần hơn</p>
+    </section>
+
+    <section class="polaroid-section section-pad" aria-labelledby="polaroid-title">
+      <div class="polaroid-section__top">
+        <div class="section-heading reveal">
+          <div>
+            <h2 id="polaroid-title">Little moments,<br><em>lovely people.</em></h2>
+          </div>
+          <p class="section-heading__aside">Mỗi khoảnh khắc đều có một người làm nó đáng nhớ hơn.</p>
+        </div>
+      </div>
+      <div class="polaroid-rail" id="polaroid-rail" aria-label="Ảnh polaroid những chị em của văn phòng" tabindex="0">
+        <div class="polaroid-track" id="polaroid-track"></div>
+      </div>
+    </section>
+
+    <section class="people-section section-pad" aria-labelledby="people-title">
+      <div class="section-heading section-heading--center reveal">
+        <div>
+          <h2 id="people-title">Gửi riêng một chút<br><em>yêu thương</em> <span aria-hidden="true">💕</span></h2>
+        </div>
+        <p class="section-heading__aside">Vì những lời chúc tuyệt vời nhất luôn xứng đáng được gọi tên.</p>
+      </div>
+      <div class="people-grid" id="people-grid" aria-label="Lời chúc dành riêng cho từng chị em"></div>
+    </section>
+
+    <section class="stats-section section-pad" aria-labelledby="stats-title">
+      <div class="stats-section__heading reveal">
+        <h2 id="stats-title">Những điều chị em<br><em>luôn xứng đáng có</em></h2>
+      </div>
+      <div class="stats-grid">
+        <article class="stat reveal"><span class="stat__number" data-count="100">0</span><span class="stat__percent">%</span><p>Xinh đẹp</p></article>
+        <article class="stat reveal"><span class="stat__number" data-count="100">0</span><span class="stat__percent">%</span><p>Tài năng</p></article>
+        <article class="stat reveal"><span class="stat__number" data-count="100">0</span><span class="stat__percent">%</span><p>Dễ thương</p></article>
+        <article class="stat reveal"><span class="stat__infinity">∞</span><p>Tỏa sáng</p></article>
+      </div>
+      <div class="deserved-list reveal" aria-label="Những điều chị em văn phòng xứng đáng có">
+        <span>☕ Cafe miễn phí</span><span>🧋 Trà sữa không tăng cân</span><span>💰 Lương tăng đều</span>
+        <span>🏝️ Nghỉ phép thật vui</span><span>😴 Không họp sáng thứ Hai</span><span>😂 Không deadline đột xuất</span>
+        <span>💐 Hoa mỗi ngày</span><span>🎁 Quà mỗi tuần</span>
+      </div>
+    </section>
+
+    <section class="wish-section section-pad" id="wishes" aria-labelledby="wish-title">
+      <div class="wish-section__glow" aria-hidden="true"></div>
+      <div class="wish-content reveal">
+        <span class="wish-content__gift" aria-hidden="true">✧</span>
+        <h2 id="wish-title">Bốc một lời chúc<br><em>dành riêng cho bạn</em> <span aria-hidden="true">🎁</span></h2>
+        <p class="wish-content__intro">Hít một hơi thật vui. Điều xinh đẹp tiếp theo có thể là dành cho bạn đấy.</p>
+        <button class="button button--rose" id="draw-wish" type="button">
+          <span aria-hidden="true">🎀</span> Nhận lời chúc
+        </button>
+        <div class="wish-result" id="wish-result" aria-live="polite" aria-atomic="true">
+          <span class="wish-result__sparkle" aria-hidden="true">✧</span>
+          <p class="wish-result__text" id="wish-text">Lời chúc xinh đẹp đang chờ được mở ra...</p>
+          <span class="wish-result__sparkle" aria-hidden="true">✧</span>
+        </div>
+      </div>
+      <span class="wish-section__petal wish-section__petal--one" aria-hidden="true">✿</span>
+      <span class="wish-section__petal wish-section__petal--two" aria-hidden="true">✧</span>
+    </section>
+
+    <section class="flower-section section-pad" aria-labelledby="flower-title">
+      <div class="flower-section__text reveal">
+        <h2 id="flower-title">Có một món quà<br><em>dành cho bạn...</em></h2>
+        <p>Không cần dịp gì đặc biệt để nói rằng bạn thật tuyệt vời. Hôm nay chỉ là một lý do thật xinh để nhắc lại điều đó.</p>
+        <button class="button button--dark" id="receive-flowers" type="button" aria-expanded="false" aria-controls="flower-reveal">
+          <span aria-hidden="true">🌷</span> Nhận hoa
+        </button>
+      </div>
+      <div class="bouquet-wrap reveal">
+        <div class="bouquet-glow" aria-hidden="true"></div>
+        <svg class="bouquet" viewBox="0 0 420 430" role="img" aria-label="Bó hoa giấy màu hồng đang chờ được mở">
+          <path class="bouquet__stem" d="M210 354C202 280 190 207 130 143m80 211c12-78 26-142 83-208m-83 208c-9-96 1-184 0-268"></path>
+          <path class="bouquet__leaf" d="M171 259c-32-6-50-23-55-50 30 2 51 18 55 50Zm69 7c27-15 47-14 66 2-20 19-43 20-66-2Zm-31-85c-30-8-45-23-47-47 28 4 43 19 47 47Z"></path>
+          <g class="bouquet__blossom bouquet__blossom--one">
+            <ellipse cx="130" cy="117" rx="25" ry="41"></ellipse><ellipse cx="130" cy="117" rx="25" ry="41" transform="rotate(72 130 117)"></ellipse><ellipse cx="130" cy="117" rx="25" ry="41" transform="rotate(144 130 117)"></ellipse><ellipse cx="130" cy="117" rx="25" ry="41" transform="rotate(216 130 117)"></ellipse><ellipse cx="130" cy="117" rx="25" ry="41" transform="rotate(288 130 117)"></ellipse><circle cx="130" cy="117" r="13"></circle>
+          </g>
+          <g class="bouquet__blossom bouquet__blossom--two">
+            <ellipse cx="291" cy="125" rx="23" ry="38"></ellipse><ellipse cx="291" cy="125" rx="23" ry="38" transform="rotate(72 291 125)"></ellipse><ellipse cx="291" cy="125" rx="23" ry="38" transform="rotate(144 291 125)"></ellipse><ellipse cx="291" cy="125" rx="23" ry="38" transform="rotate(216 291 125)"></ellipse><ellipse cx="291" cy="125" rx="23" ry="38" transform="rotate(288 291 125)"></ellipse><circle cx="291" cy="125" r="12"></circle>
+          </g>
+          <g class="bouquet__blossom bouquet__blossom--three">
+            <ellipse cx="210" cy="78" rx="25" ry="42"></ellipse><ellipse cx="210" cy="78" rx="25" ry="42" transform="rotate(72 210 78)"></ellipse><ellipse cx="210" cy="78" rx="25" ry="42" transform="rotate(144 210 78)"></ellipse><ellipse cx="210" cy="78" rx="25" ry="42" transform="rotate(216 210 78)"></ellipse><ellipse cx="210" cy="78" rx="25" ry="42" transform="rotate(288 210 78)"></ellipse><circle cx="210" cy="78" r="13"></circle>
+          </g>
+          <path class="bouquet__wrap" d="m132 254 77 23 79-23-36 125h-83l-37-125Z"></path>
+          <path class="bouquet__ribbon" d="M175 309c21 10 49 10 70 0l-14 40h-43l-13-40Zm27 20-20 35m36-35 21 35"></path>
+        </svg>
+        <div class="flower-reveal" id="flower-reveal" aria-live="polite" aria-hidden="true">
+          <span class="flower-reveal__heart" aria-hidden="true">♥</span>
+          <p>Happy Women's Day <strong>20/10</strong></p>
+          <span>Bạn xứng đáng nhận được những điều tuyệt vời nhất.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="special-section" aria-labelledby="special-title">
+      <div class="special-section__light" aria-hidden="true"></div>
+      <div class="special-message">
+        <p class="section-kicker">Nhưng thật ra...</p>
+        <h2 id="special-title" class="special-message__lines">
+          <span>Không chỉ ngày 20/10.</span>
+          <span>Mà mỗi ngày đều mong mọi người</span>
+          <span>luôn được yêu thương,</span>
+          <span>luôn vui vẻ,</span>
+          <span>luôn tự tin</span>
+          <span>và luôn tỏa sáng.</span>
+        </h2>
+        <p class="special-message__signoff">Happy Vietnamese Women's Day <span aria-hidden="true">♥</span></p>
+      </div>
+      <span class="special-section__orbit special-section__orbit--one" aria-hidden="true"></span>
+      <span class="special-section__orbit special-section__orbit--two" aria-hidden="true"></span>
+    </section>
+
+    <footer class="site-footer">
+      <div class="site-footer__flowers" aria-hidden="true">🌷 <span>✦</span> 🌸 <span>✦</span> 💐 <span>✦</span> 🌷</div>
+      <p class="site-footer__made">Made with <span aria-hidden="true">♥</span> for the amazing women of our office</p>
+      <p class="site-footer__date">Happy Vietnamese Women's Day - 20.10</p>
+      <p class="site-footer__note">Một món quà nhỏ dành cho những người phụ nữ tuyệt vời.</p>
+      <button class="footer-heart" id="footer-heart" type="button" aria-label="Nhấn trái tim năm lần để mở lời nhắn bí mật">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20.8 4.6a5.4 5.4 0 0 0-7.6 0L12 5.8l-1.2-1.2a5.4 5.4 0 0 0-7.6 7.6l1.2 1.2L12 21l7.6-7.6 1.2-1.2a5.4 5.4 0 0 0 0-7.6Z"></path></svg>
+      </button>
+    </footer>
+  </main>
+
+  <div class="petal-layer" id="petal-layer" aria-hidden="true"></div>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Xem ảnh lớn">
+    <button class="lightbox__close" id="lightbox-close" type="button" aria-label="Đóng ảnh">×</button>
+    <button class="lightbox__arrow lightbox__arrow--prev" id="lightbox-prev" type="button" aria-label="Ảnh trước">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></svg>
+    </button>
+    <figure class="lightbox__figure">
+      <img id="lightbox-image" src="images/Chị Hiếu.jpg" alt="" loading="lazy" decoding="async">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+    <button class="lightbox__arrow lightbox__arrow--next" id="lightbox-next" type="button" aria-label="Ảnh tiếp theo">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></svg>
+    </button>
+  </dialog>
+
+  <div class="surprise-overlay" id="surprise-overlay" role="dialog" aria-modal="true" aria-labelledby="surprise-title" aria-hidden="true">
+    <div class="surprise-overlay__card">
+      <button class="surprise-overlay__close" id="surprise-close" type="button" aria-label="Đóng lời nhắn">×</button>
+      <span aria-hidden="true">🌸</span>
+      <h2 id="surprise-title">Chúc chị em 20/10 vui vẻ!</h2>
+      <p>Hôm nay deadline xin phép nhường chỗ cho niềm vui 😆</p>
+    </div>
+  </div>
+
+  <div class="cursor cursor--dot" aria-hidden="true"></div>
+  <div class="cursor cursor--ring" aria-hidden="true"></div>
+  <p class="sr-only" id="sound-status" aria-live="polite"></p>
+  <noscript><p class="noscript-note">Vui lòng bật JavaScript để mở món quà và xem album ảnh.</p></noscript>
+</body>
+</html>
