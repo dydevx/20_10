@@ -146,9 +146,16 @@ function makePhotoButton(photo, index, className) {
 
 function buildGallery() {
   const galleryFragment = document.createDocumentFragment();
+  const galleryPortraits = [...portraits];
+  const hongThiIndex = galleryPortraits.findIndex((photo) => photo.name === "Hồng Thi");
+  const chiHongIndex = galleryPortraits.findIndex((photo) => photo.name === "Chị Hồng");
+  [galleryPortraits[hongThiIndex], galleryPortraits[chiHongIndex]] = [
+    galleryPortraits[chiHongIndex],
+    galleryPortraits[hongThiIndex]
+  ];
 
-  portraits.forEach((photo, index) => {
-    const button = makePhotoButton(photo, index, `gallery-item gallery-item--${index + 1} reveal`);
+  galleryPortraits.forEach((photo, index) => {
+    const button = makePhotoButton(photo, portraits.indexOf(photo), `gallery-item gallery-item--${index + 1} reveal`);
     const name = document.createElement("span");
     name.className = "gallery-item__name";
     name.textContent = photo.name;
